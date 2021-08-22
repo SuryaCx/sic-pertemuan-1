@@ -1,0 +1,98 @@
+@media screen and {
+    
+}
+
+body {
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca,
+  #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:#46eefa;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px; 
+    font-family: 'Courier New', Courier, monospace;
+    padding: 14px 20px;
+  }
+
+  .works {
+    display: flex; 
+    justify-content: center;  
+    text-align: center;
+    flex-wrap: wrap;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .works .gambar img{
+    width: 300px;
+    height: 190px; 
+    margin: 20px;
+    text-align: center; 
+    border-radius: 10px;
+    border: 5px solid plum;
+  }
+
+  .gambar h2 {
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    background: #333;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    color: white;
+}
+
+.logo img {
+    width: 70px;
+    height:70px;
+    margin-top: 110px;
+    margin-left: 5px;
+}
+
+.logo h1 {
+    position:absolute;
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo h2 {
+    text-align: center;
+    margin-left: 10px;
+}
+
+footer {
+  padding: 5px;
+  text-align: center;
+}
+
+.container {
+  color: white;
+  font-size: 20px;
+}
